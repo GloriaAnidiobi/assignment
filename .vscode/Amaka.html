@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    ::before, ::after{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    }
+
+     img{
+         object-fit: cover;
+        border-radius: 50%;
+
+     }
+     .about{
+     display: flex;
+     justify-content: space-around;
+     }
+
+     .profilename{
+        display:block;
+        justify-content: space-around;
+     }
+     span{
+       font-size: 20px;
+       font-weight: bold;
+       margin-left: 10px;
+     }
+
+    </style>
+</head>
+<body>
+    <!--user profile -->
+        <h1><u>User Profile</u></h1><br>
+    <img src="./assets/photo.jpg" width="200"><br>
+    <h2><b>Name:</b> Uzoamaka Anidiobi</h2>
+    <div class="about">
+    <p><span>Occupation:</span>   Genie Upskill</p>
+    <p><span>Location:</span>   Anambra, Nigeria</p>
+</div>
+<h2>Hobbies:</h2>
+    <ol>
+        <li>Coding</li>
+        <li>Exploring new things</li>
+        <li>Singing</li>
+    </ol>
+
+</body>
+</html>
